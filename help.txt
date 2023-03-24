@@ -1,0 +1,21 @@
+Lombok + Spring Boot Example :
+
+This example demonstrate use of Lombok and how to read json file using jackson.
+
+-----------------------------------------------------------------------
+Need to install Lombok into STS as below : 
+1. STS-> Help-> install new software (paste below url)
+    https://projectlombok.org/p2
+
+2. select lombok -> next -> install
+
+-----------------------------------------------------------------------
+Project Lombok is a mature library that reduces boilerplate code.
+Maven dependencies for Lombok
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+
+Lombok @Data is equivalent to combination of Lombok’s @Getter + @Setter + @RequiredArgsConstructor + @ToString + @EqualsAndHashCode
